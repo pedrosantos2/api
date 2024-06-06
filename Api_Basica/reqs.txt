@@ -1,0 +1,6 @@
+python
+sqlmodel
+sqlalchemy
+pytest-mock
+black
+ruff
