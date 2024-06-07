@@ -1,8 +1,8 @@
 import os
 from sqlmodel import Session
-from database.db import DB
+from Api_Basica.Banco.db import DB
 from logger import create_logger
-from model.model import Tasks, TaskStatus
+from Api_Basica.model.model import Tasks, TaskStatus
 
 filename = os.path.splitext(os.path.basename(__file__))[0]
 
